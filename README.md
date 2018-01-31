@@ -25,18 +25,18 @@
     ├── control.c  
     ├── sensor.c  
     └── test-config.h     --------------  示例代码主要配置  
-####使用流程介绍 
-#####配置
-   编辑test-config.h，完成您的基本配置
-#####编译   
-   进入到主目录 
-   `cd mqtt-daemon`  
-   创建build 目录 
-   `mkdir build`
-   进入build 目录创建cmake 工程
-   `cd build`
-   `cmake .. `
-   完成编译
-   `make`
-#####运行调试
-   在build目录下会有一个bin 文件夹，进入，执行 `./MqttSensor` 即可完成平台连接和数据上传
+####使用流程介绍   
+#####配置  
+   编辑test-config.h，完成您的基本配置  
+#####编译     
+   进入到主目录   
+   `cd mqtt-daemon`    
+   创建build 目录   
+   `mkdir build`  
+   进入build 目录创建cmake 工程  
+   `cd build`  
+   `cmake .. `  
+   完成编译  
+   `make`  
+#####运行调试  
+   在build目录下会有一个bin 文件夹，进入，执行 `./MqttSensor` 即可完成平台连接和数据上传  
